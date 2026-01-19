@@ -18,7 +18,7 @@ Phishing emails pose a significant cybersecurity and societal threat, targeting 
 
 
 ## Model Development
-We fine-tuned **DistilBERT**, a lightweight Transformer-based model pre-trained on large-scale English corpora.
+Fine-tuned **DistilBERT**, a lightweight Transformer-based model pre-trained on large-scale English corpora.
 
 ### Why DistilBERT?
 - Strong performance on text classification tasks, computationally efficient, and captures contextual meaning better than traditional models
@@ -32,10 +32,8 @@ We fine-tuned **DistilBERT**, a lightweight Transformer-based model pre-trained 
 
 
 ## Evaluation Metrics
-Given the cost of false negatives (missing phishing emails), we prioritize:
-- Precision
-- Recall
-- F1-score
+Given the cost of false negatives (missing phishing emails), I prioritized:
+- Precision, Recall, and F1-score
 
 
 ## Discussion & Social Implications
