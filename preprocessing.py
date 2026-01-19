@@ -1,6 +1,7 @@
-import pandas as pd
-import re
+import sys
+import subprocess
 from sklearn.model_selection import train_test_split
+import re
 
 DATA_PATH = "data/phishing_email.csv"
 
